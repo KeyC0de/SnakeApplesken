@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{743c2e05-d248-4e97-9356-faa79e6c6ad1}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>setup.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="setup.py">
+      <Publish>False</Publish>
+    </Compile>
+    <Compile Include="snake.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build\exe.win-amd64-3.5\apple.png" />
+    <Content Include="build\exe.win-amd64-3.5\images\apple.png" />
+    <Content Include="build\exe.win-amd64-3.5\images\snake_head.png" />
+    <Content Include="build\exe.win-amd64-3.5\lib2to3\Grammar.txt" />
+    <Content Include="build\exe.win-amd64-3.5\lib2to3\PatternGrammar.txt" />
+    <Content Include="build\exe.win-amd64-3.5\pydoc_data\_pydoc.css" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\docs\logos.html" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\docs\pygame_logo.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\docs\pygame_powered.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\docs\pygame_small.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\docs\pygame_tiny.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\alien1.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\alien1.jpg" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\alien1.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\alien2.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\alien2.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\alien3.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\alien3.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\arraydemo.bmp" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\asprite.bmp" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\background.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\bomb.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\brick.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\chimp.bmp" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\city.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\danger.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\explosion1.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\fist.bmp" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\liquid.bmp" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\midikeys.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\oldplayer.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\player1.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\shot.gif" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\data\static.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\examples\macosx\aliens_app_example\README.txt" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\install.html" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\pygame.ico" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\pygame_icon.bmp" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\pygame_icon.svg" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\readme.html" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\tests\fixtures\fonts\A_PyGameMono-8.png" />
+    <Content Include="build\exe.win-amd64-3.5\pygame\tests\fixtures\fonts\u13079_PyGameMono-8.png" />
+    <Content Include="build\exe.win-amd64-3.5\snake_head.png" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\big5-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\big5.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\big5hkscs-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\big5hkscs.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\cp949-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\cp949.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\euc_jisx0213-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\euc_jisx0213.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\euc_jp-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\euc_jp.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\euc_kr-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\euc_kr.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\gb18030-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\gb18030.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\gb2312-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\gb2312.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\gbk-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\gbk.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\hz-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\hz.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\iso2022_jp-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\iso2022_jp.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\iso2022_kr-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\iso2022_kr.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\johab-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\johab.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\shift_jis-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\shift_jis.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\shift_jisx0213-utf8.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cjkencodings\shift_jisx0213.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\cmath_testcases.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\exception_hierarchy.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\floating_points.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\formatfloat_testcases.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\ieee754.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\imghdrdata\python.bmp" />
+    <Content Include="build\exe.win-amd64-3.5\test\imghdrdata\python.gif" />
+    <Content Include="build\exe.win-amd64-3.5\test\imghdrdata\python.jpg" />
+    <Content Include="build\exe.win-amd64-3.5\test\imghdrdata\python.png" />
+    <Content Include="build\exe.win-amd64-3.5\test\leakers\README.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\mailcap.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\math_testcases.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\sgml_input.html" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_difflib_expect.html" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_doctest.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_doctest2.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_doctest3.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_doctest4.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_01.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_02.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_03.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_04.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_05.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_06.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_07.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_08.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_09.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_10.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_11.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_12.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_12a.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_13.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_14.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_15.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_16.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_17.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_18.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_19.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_20.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_21.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_22.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_23.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_24.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_25.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_26.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_27.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_28.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_29.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_30.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_31.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_32.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_33.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_34.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_35.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_36.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_37.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_38.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_39.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_40.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_41.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_42.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_43.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_44.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_45.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\msg_46.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\test_email\data\PyBanner048.gif" />
+    <Content Include="build\exe.win-amd64-3.5\test\tokenize_tests-latin1-coding-cookie-and-utf8-bom-sig.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\tokenize_tests-no-coding-cookie-and-utf8-bom-sig-only.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\tokenize_tests-utf8-coding-cookie-and-no-utf8-bom-sig.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\tokenize_tests-utf8-coding-cookie-and-utf8-bom-sig.txt" />
+    <Content Include="build\exe.win-amd64-3.5\test\tokenize_tests.txt" />
+    <Content Include="build\exe.win-amd64-3.5\tk\demos\images\earth.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\demos\images\earthris.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\demos\images\ouster.png" />
+    <Content Include="build\exe.win-amd64-3.5\tk\demos\images\tcllogo.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\lamp.png" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\lamp.svg" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\logo100.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\logo64.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\logoLarge.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\logoMed.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\pwrdLogo100.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\pwrdLogo150.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\pwrdLogo175.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\pwrdLogo200.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\pwrdLogo75.gif" />
+    <Content Include="build\exe.win-amd64-3.5\tk\images\tai-ku.gif" />
+    <Content Include="images\apple.png" />
+    <Content Include="images\duke_nukem_snake_head.png" />
+    <Content Include="images\snake_head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\exe.win-amd64-3.5" />
+    <Folder Include="build\exe.win-amd64-3.5\images" />
+    <Folder Include="build\exe.win-amd64-3.5\lib2to3" />
+    <Folder Include="build\exe.win-amd64-3.5\pydoc_data" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\docs" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\examples\" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\examples\data" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\examples\macosx\" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\examples\macosx\aliens_app_example" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\tests\" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\tests\fixtures\" />
+    <Folder Include="build\exe.win-amd64-3.5\pygame\tests\fixtures\fonts" />
+    <Folder Include="build\exe.win-amd64-3.5\test" />
+    <Folder Include="build\exe.win-amd64-3.5\test\cjkencodings" />
+    <Folder Include="build\exe.win-amd64-3.5\test\imghdrdata" />
+    <Folder Include="build\exe.win-amd64-3.5\test\leakers" />
+    <Folder Include="build\exe.win-amd64-3.5\test\test_email\" />
+    <Folder Include="build\exe.win-amd64-3.5\test\test_email\data" />
+    <Folder Include="build\exe.win-amd64-3.5\tk\" />
+    <Folder Include="build\exe.win-amd64-3.5\tk\demos\" />
+    <Folder Include="build\exe.win-amd64-3.5\tk\demos\images" />
+    <Folder Include="build\exe.win-amd64-3.5\tk\images" />
+    <Folder Include="images" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
