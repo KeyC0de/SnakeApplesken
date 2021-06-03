@@ -262,3 +262,7 @@ __pycache__/
 
 # cxfreeze output
 build
+
+# single files
+readme.html
+readme.site.md
