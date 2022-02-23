@@ -12,6 +12,7 @@
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId />
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -19,9 +20,6 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="setup.py">
-      <Publish>False</Publish>
-    </Compile>
     <Compile Include="snake.py" />
   </ItemGroup>
   <ItemGroup>
@@ -186,7 +184,6 @@
     <Content Include="build\exe.win-amd64-3.5\tk\images\pwrdLogo75.gif" />
     <Content Include="build\exe.win-amd64-3.5\tk\images\tai-ku.gif" />
     <Content Include="images\apple.png" />
-    <Content Include="images\duke_nukem_snake_head.png" />
     <Content Include="images\snake_head.png" />
   </ItemGroup>
   <ItemGroup>
